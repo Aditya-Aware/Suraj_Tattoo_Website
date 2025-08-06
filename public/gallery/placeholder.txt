@@ -1,0 +1,15 @@
+Please replace these placeholder images with actual high-quality tattoo images:
+
+1. tattoo-1.jpg - Traditional dragon tattoo
+2. tattoo-2.jpg - Minimalist wave tattoo
+3. tattoo-3.jpg - Colorful phoenix tattoo
+4. tattoo-4.jpg - Modern geometric tattoo
+5. tattoo-5.jpg - Traditional rose tattoo
+6. tattoo-6.jpg - Minimal line art tattoo
+
+Image requirements:
+- Resolution: At least 1200x800 pixels
+- Format: JPG or WebP
+- File size: Optimized for web (< 500KB each)
+- Aspect ratio: 3:2 or 4:3 preferred
+- Quality: Sharp, well-lit, professional photos

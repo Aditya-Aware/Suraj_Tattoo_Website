@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-gray-900 dark:text-light-darker;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold py-2 px-4 rounded transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-dark-lighter hover:bg-dark-light text-white font-semibold py-2 px-4 rounded transition-colors duration-200;
+  }
+
+  .input-field {
+    @apply w-full rounded-md border-gray-300 dark:border-dark-light dark:bg-dark-lighter dark:text-light-darker shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50;
+  }
+}
+
+/* Custom animations */
+.page-transition {
+  @apply animate-fade-in;
+}
+
+.element-transition {
+  @apply animate-slide-up;
+}
