@@ -93,7 +93,7 @@ const Navbar = () => {
               </Link>
             ))}
           </motion.div>
-        </motion.div>}
+        </motion.div>
       </div>
     </nav>
   );

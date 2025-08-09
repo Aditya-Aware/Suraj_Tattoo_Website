@@ -2,17 +2,15 @@ import { useEffect, useState } from 'react';
 import { useInView } from 'framer-motion';
 
 interface UseAnimationProps {
-  threshold?: number;
   once?: boolean;
   delay?: number;
 }
 
 const useAnimation = (ref: React.RefObject<HTMLElement>, {
-  threshold = 0.1,
   once = true,
   delay = 0
 }: UseAnimationProps = {}) => {
-  const isInView = useInView(ref, { once, threshold });
+  const isInView = useInView(ref, { once });
   const [hasAnimated, setHasAnimated] = useState(false);
 
   useEffect(() => {

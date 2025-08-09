@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { Transition } from '@headlessui/react';
 
 const ModernNav = () => {
@@ -116,7 +116,7 @@ const ModernNav = () => {
           leave="transition ease-in duration-150"
           leaveFrom="opacity-100 translate-y-0"
           leaveTo="opacity-0 -translate-y-4"
-          className="md:hidden"
+
         >
           <div className="absolute top-full left-0 right-0 bg-dark-200 shadow-lg rounded-b-lg overflow-hidden">
             {navItems.map((item) => (
