@@ -1,8 +1,9 @@
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import gsap from 'gsap';
 import AnimatedBackground from '../effects/AnimatedBackground';
+import { SITE_CONFIG } from '../../constants/config';
 
 const HeroSection = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -70,8 +71,7 @@ const HeroSection = () => {
           transition={{ duration: 1, delay: 0.2, ease: 'easeOut' }}
           className="text-xl md:text-2xl mb-12 text-gray-300"
         >
-          Professional tattoo artistry by Suraj Artist. Creating unique and
-          meaningful designs that tell your story.
+          Professional tattoo artistry by {SITE_CONFIG.name}. {SITE_CONFIG.description}
         </motion.p>
 
         <motion.div

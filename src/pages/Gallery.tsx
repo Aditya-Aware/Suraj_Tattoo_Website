@@ -2,50 +2,63 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import GalleryCard from '../components/gallery/GalleryCard';
 
-// Sample gallery data - replace with your actual images
 const galleryImages = [
   {
     id: 1,
-    src: '/gallery/tattoo-1.jpg',
-    title: 'Traditional Dragon',
-    category: 'traditional',
-    description: 'A detailed dragon design incorporating traditional Japanese elements.'
+    src: '/gallery/Full sleeve tattoo mahadevTattoo by-- @suraj___artist___.jpg',
+    title: 'Full Sleeve Mahadev Tattoo',
+    category: 'religious',
+    description: 'Intricate full sleeve tattoo featuring Lord Mahadev with detailed spiritual elements.'
   },
   {
     id: 2,
-    src: '/gallery/tattoo-2.jpg',
-    title: 'Minimalist Wave',
-    category: 'minimal',
-    description: 'Simple yet elegant wave design with clean lines.'
+    src: '/gallery/Full sleeve tattoo mahadevTattoo by-- @suraj___artist___ (1).jpg',
+    title: 'Mahadev Sleeve Design',
+    category: 'religious',
+    description: 'Detailed sleeve tattoo showcasing the divine presence of Lord Shiva.'
   },
   {
     id: 3,
-    src: '/gallery/tattoo-3.jpg',
-    title: 'Colorful Phoenix',
-    category: 'color',
-    description: 'Vibrant phoenix design with dynamic color composition.'
+    src: '/gallery/Shiva tattoo🕉️🌸.jpg',
+    title: 'Shiva with Om Symbol',
+    category: 'religious',
+    description: 'Beautiful composition combining Lord Shiva with the sacred Om symbol and floral elements.'
   },
   {
     id: 4,
-    src: '/gallery/tattoo-4.jpg',
-    title: 'Modern Geometric',
-    category: 'modern',
-    description: 'Contemporary geometric pattern with precise linework.'
+    src: '/gallery/Tattoo by -- @suraj___artist___.jpg',
+    title: 'Custom Design',
+    category: 'custom',
+    description: 'Unique custom tattoo design showcasing artistic creativity and precision.'
   },
   {
     id: 5,
-    src: '/gallery/tattoo-5.jpg',
-    title: 'Traditional Rose',
-    category: 'traditional',
-    description: 'Classic rose design with bold traditional style.'
+    src: '/gallery/tattoo-1.jpg',
+    title: 'Modern Art Design',
+    category: 'modern',
+    description: 'Contemporary tattoo design with bold lines and artistic expression.'
   },
   {
     id: 6,
-    src: '/gallery/tattoo-6.jpg',
-    title: 'Minimal Line Art',
-    category: 'minimal',
-    description: 'Delicate single-line artwork with minimalist approach.'
+    src: '/gallery/tattoo-2.jpg',
+    title: 'Detailed Artwork',
+    category: 'custom',
+    description: 'Meticulously crafted custom design with intricate details.'
   },
+  {
+    id: 7,
+    src: '/gallery/tattoo-3.jpg',
+    title: 'Creative Pattern',
+    category: 'modern',
+    description: 'Modern pattern design with unique artistic elements.'
+  },
+  {
+    id: 8,
+    src: '/gallery/tattoo-4.jpg',
+    title: 'Artistic Expression',
+    category: 'custom',
+    description: 'Personalized tattoo design showcasing creative artistry.'
+  }
 ];
 
 const Gallery = () => {

@@ -37,7 +37,7 @@ const Footer = () => {
             <h4 className="font-heading text-xl mb-4">Connect With Us</h4>
             <div className="flex justify-center md:justify-end space-x-4">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/suraj___artist___/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -46,7 +46,7 @@ const Footer = () => {
                 <FaInstagram size={24} />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/chotu.sharma.92560281"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -55,7 +55,7 @@ const Footer = () => {
                 <FaFacebook size={24} />
               </a>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/8319011341"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
@@ -70,7 +70,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center mt-8 pt-8 border-t border-gray-800">
           <p className="text-gray-400">
-            © {currentYear} Suraj Artist. All rights reserved.
+            © {currentYear} Aditya Aware. All rights reserved.
           </p>
         </div>
       </div>

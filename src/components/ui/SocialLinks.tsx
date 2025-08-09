@@ -9,17 +9,17 @@ const SocialLinks = ({ className = '', iconSize = 24 }: SocialLinksProps) => {
   const socialLinks = [
     {
       icon: FaInstagram,
-      href: 'https://instagram.com/surajartist',
+      href: 'https://www.instagram.com/suraj___artist___/',
       label: 'Instagram'
     },
     {
       icon: FaFacebook,
-      href: 'https://facebook.com/surajartist',
+      href: 'https://www.facebook.com/chotu.sharma.92560281',
       label: 'Facebook'
     },
     {
       icon: FaWhatsapp,
-      href: 'https://wa.me/1234567890',
+      href: 'https://wa.me/8319011341',
       label: 'WhatsApp'
     }
   ];
